@@ -2,7 +2,7 @@
 <div align=center><img src ="./images/logo-github.png"/></div> 
 
 # 👏 Introduction
-KarmaVLM is a family of lightweight but powerful visual language model (VLM) pretrained with interleaved image-text data at scale, enabling content comprehension, recognition, and multi-round conversations about images.
+KarmaVLM is a family of high efficiency and powerful visual language model (VLM) pretrained with interleaved image-text data at scale, enabling content comprehension, recognition, and multi-round conversations about images.
 
 # 🎉 News
 * [2024/02] KarmaVLM is released. 

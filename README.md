@@ -38,7 +38,7 @@ KarmaVLM offers the following features:
 
 # 🔥Model Zoo
 | Name | Download | Vision Encoder | LLM | MMBench | LLaVA-Bench-Wild | ScienceQA |
-| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 | 40.4 | 43.22 |
 | KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 | 64.0 | 53.81 |
 

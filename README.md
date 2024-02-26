@@ -37,9 +37,10 @@ KarmaVLM offers the following features:
 - **Strong image comprehension**: KarmaVLM is adept at analyzing visuals, making it an efficient tool for tasks like extracting, organizing, and summarizing information from images. 
 
 # 🔥Model Zoo
-| Checkpoint | Vision Encoder | LLM | MMBench | 
-| :----: | :----: | :----: | :----: |
-| KarmaVLM-Qwen1.5-0_5B | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 |
+| Checkpoint | Download | Vision Encoder | LLM | MMBench | 
+| :----: | :----: | :----: | :----: | :----: |
+| KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 |
+| KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 |
 
 Other Benchmark evaluations are in progress!
 

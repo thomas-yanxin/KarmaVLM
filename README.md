@@ -37,12 +37,12 @@ KarmaVLM offers the following features:
 - **Strong image comprehension**: KarmaVLM is adept at analyzing visuals, making it an efficient tool for tasks like extracting, organizing, and summarizing information from images. 
 
 # 🔥Model Zoo
-| Name | Download | Vision Encoder | LLM | MMBench | LLaVA-Bench-Wild | ScienceQA |
-| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 | 40.4 | 43.22 |
-| KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 | 47.5 | 53.81 |
+| Name | Download | Vision Encoder | LLM | MMBench | LLaVA-Bench-Wild | ScienceQA | TextVQA |
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 | 40.4 | 43.22 |  |
+| KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 | 47.5 | 53.81 | 44.98 |
 
-Other Benchmark evaluations are in progress!
+Basically we have achieved **SOTA** among models of the same parameter order of magnitude, even beyond some models with larger parameters. More Benchmark evaluations are in progress!
 
 # 👨‍💻 Quick Start
 

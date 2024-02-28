@@ -95,4 +95,7 @@ This project utilizes certain datasets and checkpoints that are subject to their
 # 🙇‍ Architecture
 We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Large Language and Vision Assistant.
 
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=X-D-Lab/KarmaVLM&type=Date)](https://star-history.com/#X-D-Lab/KarmaVLM&Date)
 

@@ -20,6 +20,11 @@
 
 </div>
 
+<div align="center">
+
+👋 **联系我们**: xd.lab2023@gmail.com
+
+</div>
 
 # 👏 Introduction
 KarmaVLM is a family of high efficiency and powerful visual language model (VLM) pretrained with interleaved image-text data at scale, enabling content comprehension, recognition, and multi-round conversations about images.

@@ -39,8 +39,8 @@ KarmaVLM offers the following features:
 # 🔥Model Zoo
 | Name | Download | Language |Vision Encoder | LLM | MMBench | LLaVA-Bench-Wild | ScienceQA | TextVQA |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) | EN |openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 | 40.4 | 43.22 | 36.1 |
-| KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() | EN/CN |google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 | 47.5 | 53.81 | 44.98 |
+| KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) / [✡️]() | EN |openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 | 40.4 | 43.22 | 36.1 |
+| KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() / [✡️]() | EN/CN |google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 | 47.5 | 53.81 | 44.98 |
 
 Basically we have achieved **SOTA** among models of the same parameter order of magnitude, even beyond some models with larger parameters. More Benchmark evaluations are in progress!
 

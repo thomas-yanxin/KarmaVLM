@@ -106,8 +106,7 @@ model_dir = snapshot_download('thomas/clip-vit-large-patch14',cache_dir="your_pa
         --controller http://localhost:10000 \
         --port 40000 \
         --worker http://localhost:40000 \
-        --model-path /path/to/karmavlm/model \
-        --model-type qwen
+        --model-path /path/to/karmavlm/model 
     ```
 
 # 📋 License
@@ -115,6 +114,12 @@ This project utilizes certain datasets and checkpoints that are subject to their
 
 # 🙇‍ Architecture
 We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Large Language and Vision Assistant.
+
+# 💪 Contributors
+
+<a href="https://github.com/X-D-Lab/KarmaVLM/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=X-D-Lab/KarmaVLM" />
+</a>  
 
 ## 🌟 Star History
 

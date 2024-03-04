@@ -69,9 +69,9 @@ pip install flash-attn --no-build-isolation
 
 you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B,and vision tower:openai/clip-vit-large-patch14 by run getmodel.py
 ```
-python getmodel.py
+python download.py
 ```
-you need to change the path in the getmodel.py to your path,also, you need to change the path of vision tower in the config.json to your local vision tower path
+you need to change the path in the download.py to your path,also, you need to change the path of vision tower in the config.json to your local vision tower path
 
 ```
 from modelscope import snapshot_download
@@ -87,7 +87,6 @@ model_dir = snapshot_download('thomas/clip-vit-large-patch14',cache_dir="your_pa
     ```
     python -m llava.serve.cli \
         --model-path /path/to/karmavlm/model \
-        --model-type qwen \
         --image-file /path/to/the/test/image
     ```
 2. Gradio Web UI

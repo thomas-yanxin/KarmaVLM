@@ -67,7 +67,7 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
 
-you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B,and vision tower:openai/clip-vit-large-patch14 by run getmodel.py
+you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B,and vision tower:openai/clip-vit-large-patch14 by run download.py
 ```
 python download.py
 ```

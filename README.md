@@ -122,12 +122,30 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
 </a>  
 
 
+***同时感谢上海人工智能实验室推出的书生·浦语大模型实战营、[**InternStudio**](https://studio.intern-ai.org.cn/)，为我门的项目提供宝贵的技术指导和强大的算力支持!~***
 
+```
+@misc{liu2023llava,
+      title={Visual Instruction Tuning}, 
+      author={Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae},
+      publisher={NeurIPS},
+      year={2023},
+}
 
-***同时感谢上海人工智能实验室推出的书生·浦语大模型实战营，为我门的项目提供宝贵的技术指导和强大的算力支持!~***[**InternLM-tutorial**](https://github.com/InternLM/tutorial)、[**InternStudio**](https://studio.intern-ai.org.cn/)、[**xtuner**](https://github.com/InternLM/xtuner)、[**InternLM-Math**](https://github.com/InternLM/InternLM-Math)
+@article{qwen,
+  title={Qwen Technical Report},
+  author={Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and Binyuan Hui and Luo Ji and Mei Li and Junyang Lin and Runji Lin and Dayiheng Liu and Gao Liu and Chengqiang Lu and Keming Lu and Jianxin Ma and Rui Men and Xingzhang Ren and Xuancheng Ren and Chuanqi Tan and Sinan Tan and Jianhong Tu and Peng Wang and Shijie Wang and Wei Wang and Shengguang Wu and Benfeng Xu and Jin Xu and An Yang and Hao Yang and Jian Yang and Shusheng Yang and Yang Yao and Bowen Yu and Hongyi Yuan and Zheng Yuan and Jianwei Zhang and Xingxuan Zhang and Yichang Zhang and Zhenru Zhang and Chang Zhou and Jingren Zhou and Xiaohuan Zhou and Tianhang Zhu},
+  journal={arXiv preprint arXiv:2309.16609},
+  year={2023}
+}
 
-
-
+@misc{2023internlm,
+    title={InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities},
+    author={InternLM Team},
+    howpublished = {\url{https://github.com/InternLM/InternLM-techreport}},
+    year={2023}
+}
+```
 
 
 ## 🌟 Star History

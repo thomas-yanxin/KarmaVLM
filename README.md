@@ -121,8 +121,8 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
   <img src="https://contrib.rocks/image?repo=X-D-Lab/KarmaVLM" />
 </a>  
 
-
-***同时感谢上海人工智能实验室推出的书生·浦语大模型实战营、[**InternStudio**](https://studio.intern-ai.org.cn/)，为我门的项目提供宝贵的技术指导和强大的算力支持!~***
+# 🙏 Acknowledgement
+同时感谢上海人工智能实验室推出的书生·浦语大模型实战营、[**InternStudio**](https://studio.intern-ai.org.cn/)，为我门的项目提供宝贵的技术指导和强大的算力支持!~
 
 ```
 @misc{liu2023llava,

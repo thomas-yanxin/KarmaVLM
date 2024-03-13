@@ -135,9 +135,7 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
 
 [**InternLM-tutorial**](https://github.com/InternLM/tutorial)、[**InternStudio**](https://studio.intern-ai.org.cn/)、[**xtuner**](https://github.com/InternLM/xtuner)、[**InternLM-Math**](https://github.com/InternLM/InternLM-Math)
 
-<a href="https://github.com/AXYZdong/AMchat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AXYZdong/AMchat" />
-</a>
+
 
 </div>
 

@@ -47,7 +47,7 @@ KarmaVLM offers the following features:
 | KarmaVLM-Qwen1.5-0_5B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1.5-0_5B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1.5-0_5B/summary) / [✡️]() | EN | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-0.5B | 53.5 | 40.4 | 43.22 | 36.1 |
 | KarmaVLM-Qwen1.5-0_5B_Siglip | [🤗]() / [🤖]() / [✡️]() | EN | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 54.6 | 47.5 | 53.81 | 44.98 |
 | KarmaVLM-Qwen1.5-4B_Siglip | [🤗]() / [🤖]() / [✡️]() | EN | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-4B | 62.3 | 50.4 | 74.98 | 49.99 |
-| KarmaVLM-Qwen1.5-7B | [🤗]() / [🤖]() / [✡️]() | EN/CN | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-7B | 69.9 | 57.9 | 76.59 | 56.32 |
+| KarmaVLM-Qwen1.5-7B | [🤗]() / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1_5-7B/summary) / [✡️]() | EN/CN | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-7B | 69.9 | 57.9 | 76.59 | 56.32 |
 | KarmaVLM-Qwen1.5-0_5B_Siglip_moe | [🤗]() / [🤖]() / [✡️]() | EN | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 55.8 | 47.5 | 53.86 | 45.25 |
 
 Basically we have achieved **SOTA** among models of the same parameter order of magnitude, even beyond some models with larger parameters. More Benchmark evaluations are in progress!

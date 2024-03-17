@@ -56,7 +56,7 @@ Basically we have achieved **SOTA** among models of the same parameter order of 
 
 ## Requirements and Installation
 
-```
+  ```
     git clone https://github.com/X-D-Lab/KarmaVLM.git
     cd KarmaVLM
 
@@ -68,22 +68,23 @@ Basically we have achieved **SOTA** among models of the same parameter order of 
     pip install -e .
     pip install -e ".[train]"
     pip install flash-attn --no-build-isolation
-```
+  ```
 
 you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B, and vision tower:openai/clip-vit-large-patch14 by run download.py
-```
-    python download.py
-```
-you need to change the path in the download.py to your path, also, you need to change the path of vision tower in the config.json to your local vision tower path.
 
-```
+  ```
+  python download.py
+  ```
+
+You need to change the path in the `download.py` to your path, also, you need to change the path of vision tower in the config.json to your local vision tower path.
+
+
+  ```
     from modelscope import snapshot_download
-    import os
-    os.environ['CURL_CA_BUNDLE'] = ''
-    model_dir = snapshot_download('X-D-Lab/KarmaVLM-Qwen1.5-0_5B',cache_dir="your_path/KarmaVLM-Qwen1.5-0_5B/") #where you need change
-    model_dir = snapshot_download('thomas/clip-vit-large-patch14',cache_dir="your_path/clip-vit-large-patch14/")#where you need change
 
-```
+    model_dir = snapshot_download('X-D-Lab/KarmaVLM-Qwen1.5-0_5B',cache_dir="your_path/KarmaVLM-Qwen1.5-0_5B/")   #where you need change
+    model_dir = snapshot_download('thomas/clip-vit-large-patch14',cache_dir="your_path/clip-vit-large-patch14/")  #where you need change
+  ```
 
 ## 🌏 Demo
 1. CLI Inference

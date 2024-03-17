@@ -125,7 +125,7 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
 </a>  
 
 # 🙏 Acknowledgement
-同时感谢上海人工智能实验室推出的书生·浦语大模型实战营、[**InternStudio**](https://studio.intern-ai.org.cn/)，为我门的项目提供宝贵的技术指导和强大的算力支持!~
+At the same time, I would like to thank the Shanghai Artificial Intelligence Laboratory for launching the Shusheng · Pu language model practice camp、[**InternStudio**](https://studio.intern-ai.org.cn/) providing valuable technical guidance and powerful computing power support for our projects!~
 
 ```
 @misc{liu2023llava,

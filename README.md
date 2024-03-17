@@ -57,31 +57,31 @@ Basically we have achieved **SOTA** among models of the same parameter order of 
 ## Requirements and Installation
 
 ```
-git clone https://github.com/X-D-Lab/KarmaVLM.git
-cd KarmaVLM
+    git clone https://github.com/X-D-Lab/KarmaVLM.git
+    cd KarmaVLM
 
-conda create -n karmavlm python=3.10 -y
-conda activate karmavlm
+    conda create -n karmavlm python=3.10 -y
+    conda activate karmavlm
 
-pip install --upgrade pip  # enable PEP 660 support
-pip install modelscope
-pip install -e .
-pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
+    pip install --upgrade pip  # enable PEP 660 support
+    pip install modelscope
+    pip install -e .
+    pip install -e ".[train]"
+    pip install flash-attn --no-build-isolation
 ```
 
-you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B,and vision tower:openai/clip-vit-large-patch14 by run download.py
+you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B, and vision tower:openai/clip-vit-large-patch14 by run download.py
 ```
-python download.py
+    python download.py
 ```
-you need to change the path in the download.py to your path,also, you need to change the path of vision tower in the config.json to your local vision tower path
+you need to change the path in the download.py to your path, also, you need to change the path of vision tower in the config.json to your local vision tower path.
 
 ```
-from modelscope import snapshot_download
-import os
-os.environ['CURL_CA_BUNDLE'] = ''
-model_dir = snapshot_download('X-D-Lab/KarmaVLM-Qwen1.5-0_5B',cache_dir="your_path/KarmaVLM-Qwen1.5-0_5B/") #where you need change
-model_dir = snapshot_download('thomas/clip-vit-large-patch14',cache_dir="your_path/clip-vit-large-patch14/")#where you need change
+    from modelscope import snapshot_download
+    import os
+    os.environ['CURL_CA_BUNDLE'] = ''
+    model_dir = snapshot_download('X-D-Lab/KarmaVLM-Qwen1.5-0_5B',cache_dir="your_path/KarmaVLM-Qwen1.5-0_5B/") #where you need change
+    model_dir = snapshot_download('thomas/clip-vit-large-patch14',cache_dir="your_path/clip-vit-large-patch14/")#where you need change
 
 ```
 

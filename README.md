@@ -27,7 +27,7 @@
 </div>
 
 # 👏 Introduction
-KarmaVLM is a family of high efficiency and powerful visual language model (VLM) pretrained with interleaved image-text data at scale, enabling content comprehension, recognition, and multi-round conversations about images.
+KarmaVLM is a family of high-efficiency and powerful visual language models (VLM) pre-trained with interleaved image-text data at scale, enabling content comprehension, recognition, and multi-round conversations about images.
 
 # 🎉 News
 * [2024/02] KarmaVLM is released. 
@@ -50,7 +50,7 @@ KarmaVLM offers the following features:
 | KarmaVLM-Qwen1.5-7B | [🤗](https://huggingface.co/X-D-Lab/KarmaVLM-Qwen1_5-7B) / [🤖](https://modelscope.cn/models/X-D-Lab/KarmaVLM-Qwen1_5-7B/summary) / [✡️]() | EN/CN | openai/clip-vit-large-patch14-336 | Qwen/Qwen1.5-7B | 69.9 | 57.9 | 76.59 | 56.32 |
 | KarmaVLM-Qwen1.5-0_5B_Siglip_moe | [🤗]() / [🤖]() / [✡️]() | EN | google/siglip-so400m-patch14-384 | Qwen/Qwen1.5-0.5B | 55.8 | 47.5 | 53.86 | 45.25 |
 
-Basically we have achieved **SOTA** among models of the same parameter order of magnitude, even beyond some models with larger parameters. More Benchmark evaluations are in progress!
+Basically, we have achieved **SOTA** among models of the same parameter order of magnitude, even beyond some models with larger parameters. More Benchmark evaluations are in progress!
 
 # 👨‍💻 Quick Start
 
@@ -76,7 +76,7 @@ you can download model:X-D-Lab/KarmaVLM-Qwen1.5-0_5B, and vision tower:openai/cl
   python download.py
   ```
 
-You need to change the path in the `download.py` to your path, also, you need to change the path of vision tower in the config.json to your local vision tower path.
+You need to change the path in the `download.py` to your path, also, you need to change the path of the vision tower in the config.json to your local vision tower path.
 
 
   ```
@@ -125,8 +125,8 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
 </a>  
 
 # 🙏 Acknowledgement
+We would like to express our heartfelt thanks to [**InternLM**](https://github.com/InternLM/InternLM) and [**InternStudio**](https://studio.intern-ai.org.cn/) of the Shanghai Artificial Intelligence Laboratory for providing valuable technical guidance and powerful computing power support for our projects.
 
-At the same time, I would like to thank the Shanghai Artificial Intelligence Laboratory for launching the Shusheng · Pu language model practice camp、[**InternStudio**](https://studio.intern-ai.org.cn/) providing valuable technical guidance and powerful computing power support for our projects!~
 ```
 @misc{liu2023llava,
       title={Visual Instruction Tuning}, 

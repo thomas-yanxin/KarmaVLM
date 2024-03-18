@@ -123,9 +123,9 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
 <a href="https://github.com/X-D-Lab/KarmaVLM/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=X-D-Lab/KarmaVLM" />
 </a>  
-
-# 🙏 Acknowledgement
 At the same time, I would like to thank the Shanghai Artificial Intelligence Laboratory for launching the Shusheng · Pu language model practice camp、[**InternStudio**](https://studio.intern-ai.org.cn/) providing valuable technical guidance and powerful computing power support for our projects!~
+# 🙏 Acknowledgement
+
 
 ```
 @misc{liu2023llava,

@@ -22,8 +22,6 @@
 
 <div align="center">
 
-👋 **联系我们**: xd.lab2023@gmail.com
-
 </div>
 
 # 👏 Introduction
@@ -125,7 +123,6 @@ We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Lar
 </a>  
 
 # 🙏 Acknowledgement
-We extend our sincere gratitude to [**InternLM**](https://github.com/InternLM/InternLM) and [**InternStudio**](https://studio.intern-ai.org.cn/) at the Shanghai Artificial Intelligence Laboratory for their invaluable technical guidance and robust computing power support for our projects
 
 ```
 @misc{liu2023llava,
